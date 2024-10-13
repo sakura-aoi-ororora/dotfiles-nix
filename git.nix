@@ -7,6 +7,7 @@ _inputs: {
     };
     ignores = [
       ".envrc" # for flake direnv
+      ".direnv"
     ];
   };
 

@@ -29,7 +29,9 @@
         })
       ];
 
-      imports = [ ./lsp.nix ./filer.nix ./git.nix ];
+      colorschemes.catppuccin.enable = true;
+
+      imports = [ ./lsp.nix ./filer.nix ./git.nix ./ui.nix ];
     };
   };
 }
