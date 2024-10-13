@@ -16,4 +16,6 @@ _inputs: {
   };
 
   programs.gh-dash = { enable = true; };
+
+  programs.lazygit.enable = true;
 }

@@ -10,9 +10,9 @@
     };
 
     nixvim = {
-        url = "github:nix-community/nixvim";
-        # If using a stable channel you can use `url = "github:nix-community/nixvim/nixos-<version>"`
-        inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/nixvim";
+      # If using a stable channel you can use `url = "github:nix-community/nixvim/nixos-<version>"`
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
@@ -30,7 +30,7 @@
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
-	extraSpecialArgs = { inherit nixvim; };
+        extraSpecialArgs = { inherit nixvim; };
       };
     };
 }
