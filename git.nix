@@ -5,6 +5,9 @@ _inputs: {
       user.email = "souyakoji@gmail.com";
       user.name = "sakura-aoi-ororora";
     };
+    ignores = [
+      ".envrc" # for flake direnv
+    ];
   };
 
   programs.gh = {

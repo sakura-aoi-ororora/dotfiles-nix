@@ -11,11 +11,17 @@ _inputs: {
     bash = {
       enable = true;
       initExtra = ''
-        	 case $- in
+         case $- in
         	 *i*) exec nu;;
-         *) return;;
+               *) return;;
          esac
-        	 '';
+      '';
+    };
+
+    # for nushell in `nix develop`
+    direnv = {
+        enable = true;
+        nix-direnv.enable = true;
     };
 
     # starship
