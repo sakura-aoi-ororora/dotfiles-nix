@@ -62,6 +62,7 @@
         yamlls.enable = true;
         starlark_rust.enable = true;
         pyright.enable = true;
+        taplo.enable = true;
       };
     };
 
@@ -102,6 +103,7 @@
       settings.server.default_settings.rust-analyzer.files.excludeDirs =
         [ ".direnv" ];
     };
+    crates-nvim.enable = true;
 
     treesitter = {
       enable = true;

@@ -8,7 +8,7 @@ _inputs: {
     ignores = [
       ".envrc" # for flake direnv
       ".direnv"
-      "playg"
+      "sand"
     ];
   };
 

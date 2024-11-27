@@ -12,8 +12,6 @@
         softtabstop = 4;
         autoindent = true;
         smartindent = true;
-        foldmethod = "expr";
-        foldexpr = "v:lua.vim.treesitter.foldexpr()";
       };
 
       keymaps = [{
